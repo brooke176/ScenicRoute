@@ -9,10 +9,6 @@ import UIKit
 import GoogleMaps
 import GooglePlaces
 
-
-      
-
-
 class ViewController: UIViewController{
     
     var locationManager: CLLocationManager!
@@ -22,8 +18,6 @@ class ViewController: UIViewController{
     var preciseLocationZoomLevel: Float = 15.0
     var approximateLocationZoomLevel: Float = 10.0
     var likelyPlaces:[Any] = []
-    
-
     
     let collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
